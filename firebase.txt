@@ -1,0 +1,26 @@
+1st milestone
+open firebase.google.com
+signin using your gmail
+add project
+
+2nd milestone
+open nodejs.org
+download stable version
+install
+
+3rd milestone
+open cmd as adminstrator
+check for node version (node -v)
+check for npm version (npm -v)
+install firebase (npm install --global firebase-tools)
+
+4th milestone
+firebase login
+firebase init
+use existing project
+make public folder
+replace index.html with your web files
+firebase deploy
+
+
+heroku use for hosting for wordpress

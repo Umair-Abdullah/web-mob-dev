@@ -1,0 +1,41 @@
+body{
+    background-color: #F7F8FA;
+}
+/* #my_links{
+    padding-left: 400px;
+} */
+nav{
+    background-color: #F7F8FA;
+}
+
+li>a:hover{
+    background-color: #316DC3;
+    border-radius: 30px ;
+    
+}
+
+
+
+
+#logo{
+    padding-left: 500px;
+}
+
+
+marquee{
+background-color:#316DC3;
+color: white;
+margin-top:  20px;
+}
+
+#slider{
+    margin-top: 100px;
+    /* margin-left: -40px; */
+}
+.slider{
+    width: auto;
+    height: auto;
+}
+p{
+    text-align: justify;
+}
