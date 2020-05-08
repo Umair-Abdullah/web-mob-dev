@@ -19,14 +19,17 @@ li>a:hover{
     height: 135px;
 
 }
-
-
-
-/* #logo{
-    padding-left: 500px;
-} */
-
-
+.icon{
+    width: 30px;
+    height: 30px;
+    }
+.head-icon{
+    padding-left: 20px;
+}
+.head{
+    background-color:#316DC3;
+    color: white; 
+}
 marquee{
 background-color:#316DC3;
 color: white;
@@ -43,4 +46,9 @@ margin-top:  20px;
 }
 p{
     text-align: justify;
+}
+.what{
+width: 300px;
+height: 300px;
+margin: 10px;
 }
