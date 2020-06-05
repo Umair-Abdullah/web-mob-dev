@@ -1,0 +1,72 @@
+body{
+    background-color: #F7F8FA;
+
+}
+/* #my_links{
+    padding-left: 400px;
+} */
+nav{
+    background-color: #F7F8FA;
+}
+
+li>a:hover{
+    background-color: #316DC3;
+    border-radius: 30px ;
+    
+}
+.display>div>img{
+    width: 180px;
+    height: 135px;
+
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    }
+.head-icon{
+    padding-left: 20px;
+}
+.head{
+    background-color:#316DC3;
+    color: white; 
+}
+.tmarquee{
+background-color:#316DC3;
+color: white;
+margin-top:  20px;
+}
+.bmarquee{
+    background-color:whitesmoke;
+color:black;
+margin-top:  20px;
+}
+}
+.bg{
+    background-color: #2755E9;
+}
+#slider{
+    margin-top: 100px;
+  
+}
+.slider{
+    width: auto;
+    height: auto;
+}
+p{
+    text-align: justify;
+}
+.what{
+width: 300px;
+height: 300px;
+margin: 10px;
+}
+.number{
+    font-size: 3em;
+}
+.month{
+    color: #00ff00;
+}
+.sadqa{
+    padding-right: 100px;
+    
+}

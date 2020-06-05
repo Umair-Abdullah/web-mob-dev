@@ -1,0 +1,17 @@
+#logo{
+    padding-left: 0px;
+    padding-top: 0px;
+    
+
+}
+#head{
+    height: 70px;
+    align-items: center;
+}
+#n_bar{
+    padding: 20px;
+
+}
+.theme_color{
+    background-color: #316dc3;
+}
