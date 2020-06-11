@@ -26,20 +26,29 @@ alert("Certified Mobail Applicatin Development")
 
 
 function task2_4() {
-var a="PIZZA";
-var x="";
-for (i=0;i<a.length;i++){
-    a.pop()
-alert(a)
+    var pizza = "PIZZA\nPIZZ\nPIZ\nPI\nP";
+    alert(pizza);
+}
 
 
-}
-    
-}
 function task2_5() {
     var umail=prompt("Enter Your Mail :");
     alert("My Email Address IS "+ umail);
 
 
     
+}
+
+function task2_6(){
+    var book = "smarter way to learn javascript";
+    alert("i am tring to learn "+book);
+}
+
+function task2_7(){
+    var message = "yah! I can write HTML content  through javascript";
+    document.write(message);
+}
+
+function task2_8(){
+    var string = " “▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬” ";
 }
