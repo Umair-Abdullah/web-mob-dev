@@ -9,8 +9,8 @@ function task3_2(){
 }
 function task3_3(){
     var byear=1994;
-    document.write("My Birth year is "+byear);
-    document.write("\n Datatype of my decleard variable is "+typeof byear);
+    document.write("My Birth year is "+byear+"</br>");
+    document.write("Datatype of my decleard variable is "+typeof byear);
 }
 function task3_4(){
     var vname=prompt("Enter Your Name :");
