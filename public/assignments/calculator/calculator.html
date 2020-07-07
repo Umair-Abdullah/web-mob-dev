@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+     <link href="cal.css" rel="stylesheet" type = "text/css"/>
+     <script src="cal.js"></script>
+</head>
+<body>
+    <div class="calculator card">
+
+        <input id="result" type="text" class="calculator-screen z-depth-1" value=""  />
+    
+        <div class="calculator-keys">
+    
+          <button id="op" onclick="no('+')" type="button" class="operator btn btn-info" value="+">+</button>
+          <button id="op" onclick="no('-')" type="button" class="operator btn btn-info" value="-">-</button>
+          <button id="op" onclick="no('*')" type="button" class="operator btn btn-info" value="*">&times;</button>
+          <button id="op" onclick="no('/')" type="button" class="operator btn btn-info" value="/">&divide;</button>
+     
+          <button id="no" onclick="no('7')" type="button"  class="btn btn-light waves-effect">7</button>
+          <button id="no" onclick="no('8')" type="button"  class="btn btn-light waves-effect">8</button>
+          <button id="no" onclick="no('9')" type="button"  class="btn btn-light waves-effect">9</button>
+
+          <button id="no" onclick="no('4')" type="button"  class="btn btn-light waves-effect">4</button>
+          <button id="no" onclick="no('5')" type="button"  class="btn btn-light waves-effect">5</button>
+          <button id="no" onclick="no('6')" type="button"  class="btn btn-light waves-effect">6</button>
+
+          <button id="no" onclick="no('1')" type="button"  class="btn btn-light waves-effect">1</button>
+          <button id="no" onclick="no('2')" type="button"  class="btn btn-light waves-effect">2</button>
+          <button id="no" onclick="no('3')" type="button"  class="btn btn-light waves-effect">3</button>
+    
+    
+          <button type="button" onclick="no('0')" class="btn btn-light waves-effect">0</button>
+          <button type="button" onclick="no('.')" class="decimal function btn btn-secondary" value=".">.</button>
+          <button type="button" onclick="clear_result()" class=" btn btn-danger btn-sm" >AC</button>
+    
+          <button type="button" onclick="result()" class="equal-sign operator btn btn-light" value="=">=</button>
+    
+        </div>
+      </div>
+</body>
+</html>
