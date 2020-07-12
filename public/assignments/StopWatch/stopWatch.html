@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="sw.css" rel="stylesheet" type = "text/css"/> -->
+
+    <title>Stop Watch</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+<body>
+    <style>
+        body{
+    background-image: url("stopWatch.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    text-align: center;
+}
+div.time > h1{
+    display: inline-block;
+    color: black;
+    width: 100px;
+    background-color: #6F7B5F;
+    border-radius: 25px;
+}
+.head{
+
+    font-size: 80px;
+    color: black;
+    padding-bottom: 100px;
+    width: 100%;
+    display: inline-block;
+
+}
+h2{
+    display: inline;
+}
+button{
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    margin: 20px;
+    border-color: black;
+}
+#min,#sec,#isto{
+    font-size: 100px;
+    width: 200px;
+}
+#msec{
+    color: red;
+    background-color: white;
+}
+
+    </style>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="head"><b>STOP WATCH</b></h1>
+            </div>
+        </div>
+    </div>
+
+<!-- <div class="container-flued">
+    <div class="row">
+        <div class="col-sm-4 mm">
+            <h1 id="min">0</h1>
+
+        </div>
+
+
+        <div class="col-sm-4" ></div>
+
+<div class="col-sm-3">
+        <div class="col-sm-3" >
+            <h1 id="min">0</h1>
+        </div>
+        <div class="col-sm-2" >
+            <h2>:</h2>
+        </div>
+        <div class="col-sm-3" >
+            <h1 id="sec">0</h1>
+        </div>
+        <div class="col-sm-2" >
+            <h2>:</h2>
+        </div>
+        <div class="col-sm-3" >
+            <h1 id="msec">0</h1>
+        </div>
+    </div>
+        <div class="col-sm-4" ></div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-md-3">
+            <button id="start" onclick="start()">Start</button>
+            <button id="pause" onclick="pause()">Pause</button>
+            <button id="stop" onclick="stop()">Reset</button>
+            <button id="lap" onclick="lap()">lap</button>
+        </div>
+    </div>
+</div> -->
+
+<div class="time">
+    <h1 id="min">0</h1>
+    <h2 id="isto">:</h2>
+    <h1 id="sec">0</h1>
+    <h1 id="msec">0</h1>
+</div>
+<div>
+    <button id="start" onclick="start()">Start</button>
+    <button id="pause" onclick="pause()">Pause</button>
+    <button id="stop" onclick="stop()">Reset</button>
+    <!-- <button id="lap" onclick="lap()">lap</button> -->
+
+
+</div>
+<div id="list">
+    <ol id="ol">
+        <li id="li">
+
+        </li>
+    </ol>
+</div>
+
+
+    <script src="SW.js"></script>
+
+</body>
+</html>
