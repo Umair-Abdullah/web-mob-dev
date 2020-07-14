@@ -8,6 +8,8 @@ var start_id = document.getElementById("start");
 var pause_id = document.getElementById("pause");
 var stop_id = document.getElementById("stop");
 var lap_id = document.getElementById("lap");
+var ol_id = document.getElementById("ol")
+
 var interval;
 
 start_id.disabled = false;
@@ -58,17 +60,26 @@ function stop(){
     msec_h.innerHTML =0;
     sec_h.innerHTML = 0;
     min_h.innerHTML = 0;
+    clearInterval(interval)
+
     
     start_id.disabled = false;
     pause_id.disabled = false;
     stop_id.disabled = true;
     lap_id.disabled = false;
 
-    clearInterval(interval)
 
 
 }
-function lap(){
- li_id.innerHTML = min + " : "+sec+ " : "+msec
+// function lap(){
+//     var aa=ol_id.document.createElement("li");
+//     var bb=min + " : "+sec+ " : "+msec;
+//     var text = document.createTextNode(bb)
 
-}
+//     // li_id.innerHTML =  bb;
+//     // console.log(aa)
+// var bc=    aa.appendChild(text);
+// console.log(bc)
+
+
+// }
