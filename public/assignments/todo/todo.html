@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>To-do</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="todo.js"></script>
+</head>
+<body>
+    <style>
+        body{
+            background-image: url("todo.jpg");
+            text-align: center;
+        }
+        li{
+            text-align: left;
+        }
+        .task{
+            padding: 20px;
+        }
+        #list{
+            font-size: large;
+            padding: 20px;
+        }
+
+
+    </style>
+
+<div class="container p-5 task">
+    <input class="form-control m-5" id="todo" type="text" placeholder="Enter Your task">
+    <button class="btn btn-success"  onclick="todo()">Add Task</button>
+    <button class="btn btn-danger" onclick="del_all()">Delete All</button>
+
+</div>
+
+
+<div class="col-md-4 ml-5" >
+    <ol  id="list">
+        
+    </ol>
+    
+
+</div>
+
+
+    
+</body>
+</html>
